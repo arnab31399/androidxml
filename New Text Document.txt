@@ -1,0 +1,110 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffdab9">
+       <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WWA COSSIPORE ENGLISH SCHOOL"
+            android:textStyle="bold"
+            android:textColor="#F00"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            />
+
+            <ImageView
+                android:src="@drawable/school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Description : "
+               android:textColor="#000"
+               android:textSize="20sp"
+               android:paddingLeft="10dp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="WWA Cossipore English School offers a variety of curricula which includes national ICSE and ISC certification to students.It aims to provide comprehensive education opportunity necessary for preparing conscientious,responsible and dynamic future global citizens.The school is one of the most leading internatonal school in North Kolkata "
+               android:textSize="15dp"
+               android:paddingLeft="20dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Address : "
+               android:textColor="#000"
+               android:textSize="20sp"
+               android:paddingLeft="10dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="59,Seven Tanks Estate"
+               android:textSize="15dp"
+               android:paddingLeft="20dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="4,DumDum Road"
+               android:textSize="15dp"
+               android:paddingLeft="20dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Kolkata-700002"
+               android:textSize="15dp"
+               android:paddingLeft="20dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Contacts : "
+               android:textColor="#000"
+               android:textSize="20sp"
+               android:paddingLeft="10dp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="2555-6932"
+               android:textSize="15dp"
+               android:paddingLeft="20dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="9987545632"
+               android:textSize="15dp"
+               android:paddingLeft="20dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Website : "
+               android:textColor="#000"
+               android:textSize="20sp"
+               android:paddingLeft="10dp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="www.wwacossiporeenglishschool.com"
+               android:textColor="#0000FF"
+               android:textSize="15dp"
+               android:paddingLeft="20dp"/>
+           </LinearLayout>
+ </ScrollView>
+</LinearLayout>
